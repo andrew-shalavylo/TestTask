@@ -16,6 +16,8 @@ How to run tests:
 1. install npm: command "npm i",
 2. install cypress: command "npm install cypress --save-dev",
 3. run cypress: command "npx cypress open",
-4. select E2E Testing in the open window,
-5. select a browser convenient for running tests,
-6.select the desired file with tests from the proposed options.
+to run cypress in headless mode:
+- npx cypress run --spec "cypress/e2e/Name_of_file"
+5. select E2E Testing in the open window,
+6. select a browser convenient for running tests,
+7. select the desired file with tests from the proposed options.
